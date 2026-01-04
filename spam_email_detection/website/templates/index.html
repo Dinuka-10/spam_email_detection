@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Email Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <div class="title">
+            Spam Email Detection
+        </div>
+
+        <form action="/" class="form" method="POST">
+
+            <div class="textarea">
+                <textarea name="message" placeholder="Enter your E-mail or SMS here..." required></textarea>
+            </div>
+
+
+            <button type="submit" class="btn">Check Message</button>
+
+        </form>
+
+        <div class="result">
+            {% if result %}
+                <p>{{result}}</p>
+            {% endif %}
+        </div>
+
+    </div>
+
+</body>
+</html>
