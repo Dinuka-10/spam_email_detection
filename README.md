@@ -22,5 +22,6 @@ Stopword removal
 Feature extraction using TF-IDF / Count Vectorizer
 Model training using a Machine Learning algorithm
 Trained model is saved as a .pkl file for inference
+
 ⚠️ Note:
 The trained model file (.pkl) is not included in this repository for security and best-practice reasons.
