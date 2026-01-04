@@ -1,4 +1,5 @@
 📧 Spam Email Detection Web Application
+
 This project is a Machine Learning–based Spam Email Detection system built using Python, NLP, and Flask.
 The application allows users to enter an email message and predicts whether it is Spam or Not Spam.
 
